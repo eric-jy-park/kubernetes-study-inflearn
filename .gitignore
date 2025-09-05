@@ -1,0 +1,57 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.log
+*.ctxt
+hs_err_pid*
+
+# Build artifacts
+**/build/
+**/out/
+**/bin/
+**/target/
+
+# Gradle
+**/.gradle/
+.gradle/
+
+# Test outputs & reports
+**/test-results/
+**/reports/
+
+# Logs
+logs/
+**/logs/
+*.log
+
+# Spring / Env
+.env
+.env.*
+# If you keep env-specific configs out of VCS, uncomment:
+# application-*.yml
+# application-*.yaml
+# application-*.properties
+
+# IDEs / Editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+
+# Archives
+*.jar
+*.war
+*.ear
+
+# Keep Gradle wrapper (do NOT ignore these)
+!**/gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.properties
+!**/gradlew
+!**/gradlew.bat
